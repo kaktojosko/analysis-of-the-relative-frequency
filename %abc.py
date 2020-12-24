@@ -65,6 +65,12 @@ def summary():
             os.truncate(path_to_data + '\\' + 'analysis.txt', 0)
     except FileNotFoundError:
         pass
+    try:
+        b = os.path.getsize(path_to_data + '\\' + 'proof.txt')
+        if b > 0:
+            os.truncate(path_to_data + '\\' + 'proof.txt', 0)
+    except FileNotFoundError:
+        pass
     sum_list = []
     letter_dict = {}
     ttl = 0
