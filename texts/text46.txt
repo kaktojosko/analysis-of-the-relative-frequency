@@ -1,0 +1,67 @@
+Open main menu
+
+Search Wikipedia
+International Fisher effect
+Language
+Download PDF
+Watch
+Edit
+The international Fisher effect (sometimes referred to as Fisher's open hypothesis) is a hypothesis in international finance that suggests differences in nominal interest rates reflect expected changes in the spot exchange rate between countries.[1][2] The hypothesis specifically states that a spot exchange rate is expected to change equally in the opposite direction of the interest rate differential; thus, the currency of the country with the higher nominal interest rate is expected to depreciate against the currency of the country with the lower nominal interest rate, as higher nominal interest rates reflect an expectation of inflation.[2][3]
+
+Contents
+Derivation of the International Fisher effect	Edit
+The International Fisher effect is an extension of the Fisher effect hypothesized by American economist Irving Fisher. The Fisher effect states that a change in a country's expected inflation rate will result in a proportionate change in the country's interest rate
+
+{\displaystyle (1+i)=(1+r)\times (1+E[\pi ])}{\displaystyle (1+i)=(1+r)\times (1+E[\pi ])}
+where
+
+{\displaystyle i}i is the nominal interest rate
+{\displaystyle r}r is the real interest rate
+{\displaystyle E[\pi ]}{\displaystyle E[\pi ]} is the expected inflation rate
+This may be arranged as follows
+
+{\displaystyle i+1=1+E[\pi ]+r+rE[\pi ]}{\displaystyle i+1=1+E[\pi ]+r+rE[\pi ]}
+When the inflation rate is low, the term {\displaystyle rE[\pi ]}{\displaystyle rE[\pi ]} will be negligible. This suggests that the expected inflation rate is approximately equal to the difference between the nominal and real interest rates in any given country
+
+{\displaystyle E[\pi ]\approx i-r}{\displaystyle E[\pi ]\approx i-r}
+Let us assume that the real interest rate is equal across two countries (the US and Germany for example) due to capital mobility, such that {\displaystyle r_{\$}=r_{\mathrm {\euro} }}{\displaystyle r_{\$}=r_{\mathrm {\euro} }}. Then substituting the approximate relationship above into the relative purchasing power parity formula results in the formal equation for the International Fisher effect
+
+{\displaystyle {\frac {\Delta S(\$/\mathrm {\euro} )}{S(\$/\mathrm {\euro} )}}={\frac {i_{\$}-i_{\mathrm {\euro} }}{1+i_{\mathrm {\euro} }}}\approx i_{\$}-i_{\mathrm {\euro} }}
+where {\displaystyle S}  refers to the spot exchange rate. This relationship tells us that the rate of change in the exchange rate between two countries is approximately equal to the difference in those countries' interest rates.
+
+Relation to interest rate parity	Edit
+Combining the international Fisher effect with uncovered interest rate parity yields the following equation:
+
+{\displaystyle E(e)={\frac {E(S_{t+k})}{S_{t}}}-1={\frac {(i_{\$}-i_{\mathrm {\euro} })}{(1+i_{\mathrm {\euro} })}}}
+where
+
+{\displaystyle E(S_{t+k})}  is the expected future spot exchange rate
+{\displaystyle S_{t}}  is the spot exchange rate
+Combining the International Fisher effect with covered interest rate parity yields the equation for unbiasedness hypothesis, where the forward exchange rate is an unbiased predictor of the future spot exchange rate.:[2]
+
+{\displaystyle {\frac {F_{t,T}}{S_{t}}}-1={\frac {(i_{\$}-i_{\mathrm {\euro} })}{(1+i_{\mathrm {\euro} })}}=E(e)}
+where
+
+{\displaystyle F_{t,T}}  is the forward exchange rate.
+Example	Edit
+Suppose the current spot exchange rate between the United States and the United Kingdom is 1.4339 GBP/USD. Also suppose the current interest rates are 5 percent in the U.S. and 7 percent in the U.K. What is the expected spot exchange rate 12 months from now according to the international Fisher effect? The effect estimates future exchange rates based on the relationship between nominal interest rates. Multiplying the current spot exchange rate by the nominal annual U.S. interest rate and dividing by the nominal annual U.K. interest rate yields the estimate of the spot exchange rate 12 months from now:
+
+{\displaystyle \$1.4339\times {\frac {(1+5\%)}{(1+7\%)}}=\$1.4071}
+To check this example, use the formal or rearranged expressions of the international Fisher effect on the given interest rates:
+
+{\displaystyle E(e)={\frac {(5\%-7\%)}{(1+7\%)}}=-0.018692=-1.87\%}
+{\displaystyle E(e)={\frac {(1+5\%)}{(1+7\%)}}-1=-0.018692=-1.87\%}
+The expected percentage change in the exchange rate is a depreciation of 1.87% for the GBP (it now only costs $1.4071 to purchase 1 GBP rather than $1.4339), which is consistent with the expectation that the value of the currency in the country with a higher interest rate will depreciate.
+
+References	Edit
+ Buckley, Adrian (2004). Multinational Finance. Harlow, UK: Pearson Education Limited. ISBN 978-0-273-68209-7.
+ Eun, Cheol S.; Resnick, Bruce G. (2011). International Financial Management, 6th Edition. New York, NY: McGraw-Hill/Irwin. ISBN 978-0-07-803465-7.
+ Madura, Jeff (2007). International Financial Management: Abridged 8th Edition. Mason, OH: Thomson South-Western. ISBN 0-324-36563-2.
+Last edited 8 months ago by MasashiInoue
+
+Content is available under CC BY-SA 3.0 unless otherwise noted.
+Privacy policy Terms of UseDesktop
+In finance and economics, the nominal interest rate or nominal rate of interest is either of two distinct things:
+
+the rate of interest before adjustment for inflation ; or,
+for interest rates "as stated" without adjustment for the full effect of compounding. An interest rate is called nominal if the frequency of compounding is not identical to the basic time unit in which the nominal rate is quoted.
