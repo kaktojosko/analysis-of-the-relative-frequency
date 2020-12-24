@@ -1,0 +1,28 @@
+a 119
+b 20
+c 35
+d 57
+e 149
+f 23
+g 21
+h 85
+i 103
+j 1
+k 7
+l 59
+m 22
+n 104
+o 111
+p 25
+q 0
+r 90
+s 102
+t 121
+u 31
+v 7
+w 30
+x 3
+y 39
+z 2
+total letters - 1366
+total length - 1801
