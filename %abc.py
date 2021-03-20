@@ -104,5 +104,3 @@ def convert_to_csv():
 
 
 convert_to_csv()
-
-data = pd.read_csv(path_to_data + '\\' + 'analysis.csv')
