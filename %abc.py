@@ -34,8 +34,8 @@ def get_info(text_name):
                 total = total + int(line[2:])
 
         with open(path_to_data + '\\' + 'statistics_' + text_name, 'a+') as stat:
-            stat.write('total letters,' + str(total) + '\n')
-            stat.write('total length,' + str(length) + '\n')
+            stat.write('total letters - ' + str(total) + '\n')
+            stat.write('total length - ' + str(length) + '\n')
 
 
 def get_general_stat():
@@ -57,7 +57,7 @@ def get_general_stat():
                         total_letter.append(int(line[2:]))
 
         with open(path_to_data + '\\' + 'general_statistics.txt', 'a+') as gen_stat:
-            gen_stat.write(letter + ',' + str(sum(total_letter)) + '\n')
+            gen_stat.write(letter + ' - ' + str(sum(total_letter)) + '\n')
 
 
 def summary():
@@ -83,7 +83,7 @@ def summary():
         total_letters = sum(sum_list)
     for letter in abc:
         with open(path_to_data + '\\' + 'analysis.txt', 'a+') as statistics:
-            statistics.write(letter + ',' + str((letter_dict[letter] / total_letters) * 100) + '%' + '\n')
+            statistics.write(letter + ', ' + str((letter_dict[letter] / total_letters) * 100) + '%' + '\n')
         with open(path_to_data + '\\' + 'proof.txt', 'a+') as statistics:
             ttl += (letter_dict[letter] / total_letters) * 100
             statistics.write(str(ttl) + '\n')
